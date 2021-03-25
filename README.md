@@ -10,7 +10,7 @@ Project Euler exists to encourage, challenge, and develop the skills and enjoyme
 fascinating world of mathematics.
 
 __This project is written in python__
-
+https://projecteuler.net/about
 
 
 
