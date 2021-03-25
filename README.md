@@ -1,5 +1,11 @@
-"""
-__project_eule.py__
-That depends on your background. There are two tables containing problems. The Recent problems table lists the ten most recently published problems, so if you are new to Project Euler then you may prefer to start with the Archives to get a feel for the different types/difficulties of our problems. The first one-hundred or so problems are generally considered to be easier than the problems which follow. In the archives table you will be able to see how many people have solved each problem; as a general rule of thumb the more people that have solved it, the easier it is. To assist further there is a difficulty rating system which may also help you decide where to start. You are able to sort the problems in the archives table on ID, Solved By, or Difficulty.
 
-"""
+__About Project Euler__
+
+Project Euler (named after Leonhard Euler) is a website dedicated to a series of computational problems intended to be solved with computer programs.
+
+The project attracts adults and students interested in mathematics and computer programming.
+
+Project Euler exists to encourage, challenge, and develop the skills and enjoyment of anyone with an interest in the fascinating world of mathematics.
+
+
+
