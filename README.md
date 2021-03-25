@@ -9,5 +9,8 @@ The project attracts adults and students interested in mathematics and computer 
 Project Euler exists to encourage, challenge, and develop the skills and enjoyment of anyone with an interest in the
 fascinating world of mathematics.
 
+__This project is written in python__
+
+
 
 
