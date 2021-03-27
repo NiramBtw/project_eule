@@ -12,6 +12,7 @@ fascinating world of mathematics.
 __This project is written in python__
 https://projecteuler.net/about
 
+__My Project Euler user:__
 https://projecteuler.net/profile/motabtw.png
 
 
