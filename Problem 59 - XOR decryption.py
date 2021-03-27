@@ -12,8 +12,8 @@ def compute():
 		for x in range(97, 123)  # ASCII lowercase 'a' to 'z'
 		for y in range(97, 123)
 		for z in range(97, 123)),
-		key=lambda key: get_score(decrypt(CIPHERTEXT, key)))
-	ans = sum(decrypt(CIPHERTEXT, bestkey))
+		key=lambda key: get_score(decrypt(cipher_text, key)))
+	ans = sum(decrypt(cipher_text, bestkey))
 	return str(ans)
 
 
@@ -31,11 +31,11 @@ def get_score(plaintext):
 
 
 # takes two sequences of integers and returns a list of integers.
-def decrypt(ciphertext, key):
-	return [(c ^ key[i % len(key)]) for (i, c) in enumerate(ciphertext)]
+def decrypt(ciphertxt, key):
+	return [(c ^ key[i % len(key)]) for (i, c) in enumerate(ciphertxt)]
 
 
-CIPHERTEXT = [
+cipher_text = [
 	36, 22, 80,  0,  0,  4, 23, 25, 19, 17, 88,  4,  4, 19, 21, 11, 88, 22, 23, 23,
 	29, 69, 12, 24,  0, 88, 25, 11, 12,  2, 10, 28,  5,  6, 12, 25, 10, 22, 80, 10,
 	30, 80, 10, 22, 21, 69, 23, 22, 69, 61,  5,  9, 29,  2, 66, 11, 80,  8, 23,  3,
